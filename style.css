@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: segoe print;
+	padding: 20px;
+	background: aqua;
+}
+
+.header {
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+	background: tomato;
+}
+
+.row {
+	display: table;
+}
+
+.left {
+	float: left;
+	width: 70%;
+}
+
+.right {
+	float: right;
+	width: 30%;
+	padding-left: 20px;
+}
+
+.card {
+	background-color: tomato;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.img {
+	background-color: #aaa;
+	padding: 20px;
+	background-size: cover;
+	background-position: center;
+}
+
+i {
+	font-size: 40px !important;
+	padding-left: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	padding-left: 15px;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: #ddd;
+	margin-top: 20px;
+}
